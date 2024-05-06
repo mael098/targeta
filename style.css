@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #FAFAF9;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 336px;
+    padding: 16px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.text-contenedor{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.desig{
+    color: #883AE1;
+    background-color:  #883ae142  ;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: 50;
+    font-size: 1.4rem;
+}
+
+.Annie{
+    margin-top: 20px;
+}
