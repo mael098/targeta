@@ -6,10 +6,11 @@
 body{
     font-family: Arial, sans-serif;
     background-color: #FAFAF9;
-    display: grid;
     place-items: center;
     height: 100vh;
-
+    display: flex;
+    justify-content: center;
+     
 }
 
 main{
@@ -38,13 +39,41 @@ img{
     color: #883AE1;
     background-color:  #883ae142  ;
     border-radius: 15px;
+    padding: 6px;
     width: fit-content;
-    padding: 5px 10px;
-    font-size: 1.5rem;
-    font-weight: 50;
-    font-size: 1.4rem;
+    font-size: 12px ;
+    
+
+
+    
 }
 
 .Annie{
     margin-top: 20px;
 }
+
+
+
+
+/*page nav*/
+
+header{
+    height: rem;
+    width: 100%;
+    background-color: #883ae142;
+}
+nav{
+    display:  flex;
+    justify-content: space-between;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+}
+.logo{
+    width: 6%;
+}
+
